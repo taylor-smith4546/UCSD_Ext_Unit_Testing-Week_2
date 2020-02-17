@@ -41,29 +41,13 @@ String, BigDecimal or List<Object> and see what assertions are available.
 
 Exercise 3:
 
-Fahrenheits to Celcius with Parameterized Tests
+Write an assertion to compare two String are equal, returning a message.
 
-A simple test class is shown below. Your task is to introduce parameterized tests, so there
-will be no repetition in the test code.
+Write an assertion to compare two String are not equal, returning a message.
 
-```java
-public class FahrenheitCelciusConverterTest {
-    
-@Test
- void shouldConvertCelciusToFahrenheit() {
-    assertThat(FahrToCelcConverter.toFahrenheit(0)).isEqualTo(32);
-    assertThat(FahrToCelcConverter.toFahrenheit(37)).isEqualTo(98);
-    assertThat(FahrToCelcConverter.toFahrenheit(100)).isEqualTo(212);
- }
+Note: Please refer to examples within test/com/hubberspot/junit5/examples.
+
  
-@Test
- void shouldConvertFahrenheitToCelcius() {
-    assertThat(FahrToCelcConverter.toCelcius(32)).isEqualTo(0);
-    assertThat(FahrToCelcConverter.toCelcius(100)).isEqualTo(37);
-    assertThat(FahrToCelcConverter.toCelcius(212)).isEqualTo(100);
-  }
- }
-``` 
 Exercise 4: 
 
 Master Your IDE (Not Graded)
