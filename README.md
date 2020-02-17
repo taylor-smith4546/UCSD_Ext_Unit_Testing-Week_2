@@ -41,11 +41,14 @@ String, BigDecimal or List<Object> and see what assertions are available.
 
 Exercise 3:
 
-Write an assertion to compare two String are equal, returning a message.
+We have a very simple calculator class. All it does is add two numbers together. 
+When testing this code, we would like to make sure that the calculation is correct.
 
-Write an assertion to compare two String are not equal, returning a message.
+o Construct an instance of the Calculator class
+o Call the add() method with some parameters and store the result
+o Check the results by calling the assertEquals() method, comparing the expected and actual value
+o Write an additional test which calls the AssertNotEquals method
 
-Note: Please refer to examples within test/com/hubberspot/junit5/examples.
 
  
 Exercise 4: 
